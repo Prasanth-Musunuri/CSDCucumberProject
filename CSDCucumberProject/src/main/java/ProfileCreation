@@ -1,0 +1,62 @@
+<html>
+   <body>
+      <form action="/examples/jsp/forms/process.jsp" method=post>
+         <center>
+            <table cellpadding=4 cellspacing=2 border=0>
+               <th bgcolor="#CCCCFF" colspan=2>
+                  <font size=5>USER REGISTRATION</font>
+                  <br>
+                  <font size=1><sup>*</sup> Required Fields</font>
+               </th>
+               <tr bgcolor="#c8d8f8">
+                  <td valign=top>
+                     <b>First Name<sup>*</sup></b>
+                     <br>
+                     <input type="text" name="firstName" value="" size=15 maxlength=20>
+                  </td>
+                  <td valign=top>
+                     <b>Last Name<sup>*</sup></b>
+                     <br>
+                     <input type="text" name="lastName" value="" size=15 maxlength=20>
+                  </td>
+               </tr>
+               <tr bgcolor="#c8d8f8">
+                  <td valign=top>
+                     <b>E-Mail<sup>*</sup></b>
+                     <br>
+                     <input type="text" name="email" value="" size=25 maxlength=125>
+                     <br>
+                  </td>
+                  <td valign=top>
+                     <b>Address<sup></sup></b>
+                     <br>
+                     <input type="text" name="address" value="" size=50 maxlength=150>
+                  </td>
+               </tr>
+               <tr bgcolor="#c8d8f8">
+                  <td valign=top colspan=2>
+                     <b>Phone Number<sup>*</sup></b>
+                     <br>
+                     <input type="text" name="phoneNumber" size=10 value="" maxlength=10>
+                  </td>
+               </tr>
+                  <br>
+               </tr>
+               <tr bgcolor="#c8d8f8">
+                  <td valign=top colspan=2>
+                     <b>Skill Set</b>
+                     <br>
+                     <input type="textarea" name="skillset" size=125 value="" maxlength=500>
+                  </td>
+               </tr>
+               <tr bgcolor="#c8d8f8">
+                  <td align=center colspan=2>
+                     <input type="submit" value="Submit"> <input type="reset"
+                        value="Reset">
+                  </td>
+               </tr>
+            </table>
+         </center>
+      </form>
+   </body>
+</html>
